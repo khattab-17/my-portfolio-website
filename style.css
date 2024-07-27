@@ -1,0 +1,1852 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    cursor:default;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-family: "Open sans" ,sans-serif !important;
+}
+
+#my-name a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.note{
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 0px 50px 0px;
+    color: gray;
+}
+
+/* #sixth-page a{
+    width: 100%;
+} */
+
+body{
+    /* background-color:aliceblue; */
+    color: aliceblue;
+    /* background-image: url(pics/back-13.png); */
+    background-size: 100vmax;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+#first-page-content{
+    /* background-color: aqua; */
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+
+#titles{
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 8vw; */
+    padding-top: 40px;
+    text-align: center !important;
+}
+
+#iconsp{
+    width: 50%;
+    display: none;
+    /* background-color: greenyellow; */
+}
+
+#imger{
+    width: 40vw;
+    height: 88%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-right: 5vw;
+    margin-top: 10%;
+    /* margin-top: -560px; */
+}
+
+
+#third-page{
+    height: 80vh;
+    /* padding: 50px 0px; */
+    background-color: white;
+    /* border-bottom: 1px solid gray; */
+    /* border-top: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 3%; */
+}
+
+#forth-page{
+    height: auto;
+    /* padding: 50px 0px; */
+    background-color: white;
+    /* border-bottom: 1px solid gray; */
+    /* border-top: 1px solid gray; */
+    display: flex;
+    /* box-shadow: 0px 3px 7px red; */
+    flex-direction: column;
+    /* padding-bottom: 3%; */
+    padding-top: 50px;
+}
+
+#forth-page h1{
+    color: black;
+}
+
+
+#about-me{
+    /* background-color: aqua; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 100px;
+    padding-bottom: 0px !important;
+}
+
+#about-text{
+    width: 50%;
+    height: 80%;
+    border-radius: 2rem;
+    /* background-color: chartreuse; */
+    margin: 2rem 5rem 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    float: right;
+    /* box-sizing: b-box; */
+}
+
+#who{
+    /* background-color: red; */
+    width: 80%;
+    color: black !important;
+    text-align: center;
+}
+
+#who-text{
+    /* background-color: orange; */
+    /* height: 80%; */
+    padding: 20px 0px;
+    width: 35vw;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#about-pic{
+    /* background-color: red; */
+    width: 50%;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sixth-page{
+    /* height: 100vh; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#all{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+#left{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    /* background-color: blue; */
+    padding-left: 6vw;
+    margin-top: 0px;
+}
+
+.number{
+    width: 34vw;
+    height: 60px;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    /* background-color: yellowgreen; */
+}
+
+#right a{
+    width: 34vw;
+    height: 60px;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    /* background-color: yellowgreen; */   
+}
+
+.number:hover{
+    background-color: #fafafa;
+}
+
+/* .number a{
+    text-decoration: none !important;
+    width: 34vw;
+    height: 60px;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    background-color: yellowgreen;
+} */
+
+.phone a:hover{
+    text-decoration: none !important;
+}
+
+.inf{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.pict{
+    height: 100%;
+    width: 15%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 5%; */
+}
+
+
+.phone{
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    height: 50%;
+    padding-top: 20px;
+}
+
+.no{
+    color: gray;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+#right{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-top: 30px;
+    /* background-color: red; */
+}
+
+#contact-me{
+    /* background-color: brown; */
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    /* display: flex; */
+}
+
+#contact-me-p{
+    color: gray;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+#whatsApp{
+    /* width: 100%; */
+    /* background-color: greenyellow; */
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px 50px 0px;
+}
+
+#whatsApp h3{
+    color: black;
+}
+
+#whatsApp-btn{
+    padding: 10px 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(0, 224, 0);
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+#inputs{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.one{
+    /* background-color: blue; */
+    width: 51vw;
+    margin: 10px 20px 10px 0px;
+    /* width: 100%; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.one input{
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%;
+    margin: 0px;
+    outline: none;
+    border: 1px solid #efefef;
+    background-color: #f8f8f8;
+    /* box-shadow: 0px 0px 3px gray; */
+}
+
+textarea{
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%;
+    margin: 0px;
+    outline: none;
+    border: 1px solid #efefef;
+    /* background-color: #fcfcfc; */
+    background-color: #f8f8f8;
+    height: 100px;
+}
+
+label{
+    /* text-align: start; */
+    /* background-color: aqua; */
+    margin-left: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+#send{
+    padding: 7px 25px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(3, 201, 201);
+    font-size: 15px;
+    font-weight: 400;
+    width: 100px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+footer{
+    /* background-color: black; */
+    color: gray;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid rgb(197, 197, 197);
+    width: 90%;
+    margin-left: 5%;
+}
+
+footer .icon{
+    width: 20px;
+}
+
+footer #icons{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    /* background-color: red; */
+}
+
+#kik{
+    display: none;
+}
+
+.flexy{
+    display: flex;
+}
+
+#main-div{
+    /* margin-top: +18%; */
+    margin-left: 4.5rem;
+    width: 100%;
+}
+
+#main-body{
+    height: 100vh;
+    /* background-color: red; */
+}
+
+#header{
+    padding: 11px;
+    color:midnightblue;
+    background-color: white;
+    /* border-bottom: 1px solid black; */
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+#header div{
+    position: fixed;
+    /* display: flex;
+    background-color: blue;
+    height: 100%; */
+}
+
+#my-name{
+    margin-left: 3rem;
+    font-weight: 400;
+    color: blue !important;
+    height: 100%;
+}
+
+#my-button{
+    background-color:rgb(3, 201, 201);
+    /* background-color: rgb(66, 66, 255); */
+    border: 2px solid rgb(3, 201, 201);
+    color: white;
+    border-radius: 1.5rem;
+    outline: none;
+    /* border: none; */
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.4vw;
+    padding: 10px 15px;
+    /* margin-top: 10px; */
+}
+
+#my-button:hover{
+    background-color:rgba(3, 201, 201, 0) ;
+    border:2px solid rgb(3, 201, 201);
+    /* color: rgb(3, 201, 201); */
+    color: rgb(3, 201, 201);
+}
+#my-job{
+    /* padding-bottom: 0rem; */
+    font-size: 5vw;
+    color: black;
+    font-weight: 600;
+    /* background-color: red; */
+    padding: 0px !important;
+    margin: 0px 0px 10px 0px!important;
+}
+#say-hi{
+color:gray;
+/* padding-bottom: 15px; */
+font-size: 2vw;
+font-weight: 500;
+}
+
+#real-job{
+    font-size: 2vw;
+    /* margin: 10px 0px; */
+    color: gray;
+    font-weight: 500;
+    
+}
+
+header ul{
+    display: flex;
+    color: black;
+    list-style: none;
+    float: right;
+    align-items: center;
+    margin-left: 150px;
+    padding-bottom: 10px;
+    /* background-color: red; */
+}
+
+header a{
+    color: rgb(3, 201, 201);
+    font-weight: 500;
+}
+
+header li a{
+    color: black;
+}
+header li {
+    font-weight: 400;
+    padding: 11px 25px;
+    margin-top: -29px;
+    color: black !important;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+header a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#icons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* background-color: red; */
+    /* margin: 20px; */
+}
+
+.icon{
+    width: 25px;
+    margin: 0px 13px 0px 0px;
+}
+
+#third-page .title{
+    color:black;
+    margin:1.6% !important;
+    text-align: center;
+    /* background-color: red; */
+}
+
+#second-page{
+    /* height: 70vh; */
+    /* background-color: rgb(255, 0, 0) !important; */
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(pics/----\(0\).jpeg); */
+    /* background-position: left; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    background-color: red;
+    background-color: white;
+    padding-top: 25vw;
+    padding-bottom: 15vw;
+    /* border-bottom: 2px solid aqua;
+    border-top: 2px solid aqua; */
+}
+
+#second-page h1{
+    color: black;
+    /* margin-bottom: 100px !important; */
+} 
+
+#forth-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont{
+    width: 300px;
+    height: 250px;
+    color: blue;
+    background-color:  rgb(238, 238, 238);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 7px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cont:hover{
+    background-color: rgb(231, 229, 229);
+}
+
+.cont-r{margin-left: 150px;
+    background-color: rgb(238, 238, 238);}
+
+#works{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.onework{
+    /* margin: 0px 50px; */
+    width: 350px;
+    /* margin-right: 100px; */
+}
+
+.title{
+    font-size: 35px;
+    padding: 0px 0px 10px 0px ;
+    margin-top: 40px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+}
+
+.title2{
+    font-size: 35px;
+    padding: 20px;
+    /* margin-top: 40px; */
+    margin-bottom: 70px;
+    text-align: center;
+    color: blue;
+}
+
+#langs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lang{
+    width: 100% !important;
+    /* margin: 2%; */
+}
+
+#js{
+    width: 100%;
+    background-color: blanchedalmond !important;
+}
+
+/* #icons{
+    position: relative;
+    background-color: red;
+    width: 10%;
+} */
+
+.icon img{
+    width: 30px;
+    margin: 0px 8px;
+}
+
+.ppp{
+    width: 100px;
+}
+
+/* #iconat{
+    background-color: red;
+    height: 10px;
+} */
+
+#copy-rights{
+    background-color: midnightblue;
+    padding: 20px;
+}
+
+#copy-rights span{
+    color: rgb(47, 47, 255);
+}
+
+.project{
+    /* background-color: red; */
+    /* border-bottom: 1px solid white; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.project-title{
+    padding: 15px 0px 15px 0px;
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+
+}
+
+.project-details{
+    /* background-color: yellowgreen; */
+    /* color: rgb(92, 91, 91); */
+    color: black;
+    width: 100%;
+    font-weight: 500;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* text-align: center; */
+}
+
+
+
+.text{
+    width: 25vw;
+    float: left !important;
+    /* left: 200px; */
+    /* position:absolute; */
+    /* background-color: red; */
+    text-align: left;
+}
+
+.texte{
+    width: 420px;
+    float: left !important;
+    right: 200px;
+    /* position:absolute; */
+    /* background-color: red; */
+    text-align: left;
+}
+
+.wide-none{
+    display: none !important;
+}
+
+#w1,#w3{
+    margin-left: 30px;
+}
+
+#w2{
+    margin-right: 30px;
+}
+
+/* .one,.three{
+    margin-right: 100px;
+} */
+
+.two{
+    margin-left: 100px;
+}
+
+#third-page h1{
+    color: blue;
+}
+
+/* #fifth-page{ */
+    /* height: 60vh; */
+    /* background-color: yellowgreen; */
+    /* background-color: aqua; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* display: none; */
+/* } */
+
+/* #about-img{
+    width: 100%;
+    border-color: red !important;
+    height: 100%;
+    cursor: pointer;
+} */
+
+
+/* #fifth-page p{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+} */
+/* 
+#right-skill{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+#left-skill{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+#left-skill p{
+    display: flex;
+}
+
+#right-skill p{
+    display: flex;
+    background-color: brown;
+}
+
+#texter{
+    background-color: greenyellow;
+    width: 100px;
+}
+
+#right-skill img{
+    background-color: blueviolet;
+} */
+
+#texter{
+    color: rgb(39, 39, 39);
+    margin-top: 20px;
+    /* margin-left: 20%; */
+    /* background-color: red; */
+}
+
+/* #right-skill div{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin: 2% 4%;
+} */
+
+#right-skill p{
+    /* background-color: greenyellow; */
+    /* padding-right: 19%; */
+    /* width: 50%; */
+    box-sizing: content-box;
+}
+
+#left-skill p{
+    /* background-color: greenyellow; */
+    /* width: 100%; */
+    /* padding-right: 19%; */
+    box-sizing: content-box;
+}
+
+/* #left-skill h2{
+    border-color: blueviolet;
+} */
+
+#left-skill div{
+    display: flex;
+    /* text-align:end; */
+    align-items: center;
+    width: 25%;
+    /* border: 3px solid red; */
+    margin: 0% 0%;
+    flex-direction: column;
+}
+
+#right-skill div{
+    display: flex;
+    /* text-align:end; */
+    align-items: center;
+    width: 25%;
+    /* border: 3px solid red; */
+    margin: 0% 0%;
+    flex-direction: column;
+}
+
+#right-skill{
+    /* margin-left: 60px; */
+    /* padding: 50px; */
+    /* background-color: aqua; */
+    /* border-bottom: 1px solid gray; */
+    /* border-top: 1px solid gray; */
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 3vw 0px;
+}
+
+#left-skill{
+    /* margin-right: 60px; */
+    /* padding: 50px; */
+    /* background-color: yellow; */
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    padding: 0px;
+
+}
+
+/* #iconsp{
+    background-color: red !important;
+    width: 100%;
+    height: 100%;
+} */
+
+.wahid{
+    width: 25vw;
+    margin-right: 7%;
+    float: right !important;
+    border: 1px solid gray;
+}
+
+.wahide{
+    width: 25vw;
+    margin-left: 7%;
+    float: right !important;
+}
+
+
+
+/* .wahide{
+    margin-left: 500px;
+    float: right !important;
+} */
+
+.object-title-mobile{ 
+    display: none !important;
+}
+
+.mob{
+    display: none !important;
+}
+
+.desk{
+    display: block;
+}
+
+@media screen and (max-width:1040px){
+
+    #left-skill div{
+        margin: 0vw 2vw;
+    }
+
+    #right-skill div{
+        margin: 0vw 2vw;
+    }
+
+    .project-title{
+        font-size: 3.5vw !important;
+    }
+}
+
+@media screen and (max-width:800px){
+
+.text{
+    align-items: center;
+    justify-content:center ;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-details{
+    max-width: 70% !important;
+    /* background-color: red; */
+}   
+
+.project-title{
+    font-size: 5vw !important;
+}
+
+.object-title-mobile{ 
+    display: block !important;
+    /* flex-direction: column;b */
+    max-width: 80%;
+}
+
+#iconsp{
+    display: none;
+}
+
+/* .jh{
+    dis
+} */
+
+#imger{
+    display: none;
+}
+
+#header{
+    width: 100%;
+    /* background-color: red; */
+}
+
+#first-pagepoytre{
+    width: 100%;
+}
+
+#about-me{
+    flex-direction: column;
+}
+
+#who{
+    text-align: center;
+    width: 100%;
+}
+
+#about-pic{
+    /* background-color: red; */
+    margin-left: 5vw;
+    width: 80%;
+}
+
+#who-text{
+    /* background-color: blue; */
+    width: 100%;
+    text-align: center;
+}
+
+#about-text{
+    /* background-color: aqua; */
+    margin: 0px;
+    align-items: start;
+    width: 70%;
+}
+
+#first-page-content{
+    margin: 0px;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+}
+
+#titles{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 0px !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+#say-hi{
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+}
+
+/* #my-name{
+    font-size: 5vw;
+} */
+
+#real-job{
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+}
+
+#my-button{
+    font-size: 2.7vw;
+    margin: 3vw 0px !important;
+}
+
+#my-job{
+    width: 100%;
+    text-align: center;
+    font-size: 8vw;
+}
+
+#btn-p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#icons{
+    width: 100%;
+    align-items:  center;
+    justify-content: center;
+}
+
+.icon{
+    width: 20px;
+    margin: 0px 10px 0px 0px;
+}
+
+#texter{
+    font-size: 3vw;
+    /* background-color: orange; */
+    width: auto !important;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+#langs{
+    flex-direction: column;
+}
+
+#lang{
+    width: auto !important;
+    height: 100% !important;
+    /* width: auto !important; */
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+}
+
+#left-skill p{
+    width: 70px;
+    height: 70px;
+    /* background-color: aqua; */
+    padding: 0px;
+    flex-direction: column;
+    display: flex;
+}
+
+#left-skill{
+    margin: 30px 0px;
+}
+
+
+#right-skill p{
+    width: 70px;
+    height: 70px;
+    /* background-color: aqua; */
+    padding: 0px;
+    flex-direction: column;
+    display: flex;
+}
+
+#left-skill div{
+    /* background-color: red; */
+    flex-direction: column;
+    /* width: auto; */
+}
+
+#right-skill div{
+    /* background-color: red; */
+    flex-direction: column;
+    /* width: auto; */
+}
+
+#second-page .title{
+    margin-bottom: 0px !important;
+}
+
+
+
+/* #titles div{
+    display: flex;
+    background-color: red;
+    width: auto;
+} */
+
+#all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.wahid, .wahide{
+    width: 60vw;
+    border: 1px solid gray;
+    padding: 0px;
+    margin: 30px 0px 0px 0px;
+}
+
+.text{
+    width: 90vw;
+    margin: 0px;
+    text-align: center;
+}
+
+.project{
+    flex-direction: column;
+    margin: 0px;
+    /* padding: 0px; */
+}
+
+.narrow-nono{
+    display: none;
+}
+
+/* .wide-none{
+    display: flex !important;
+} */
+
+#left{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputs{
+    width: 90%;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+#send{
+    margin-left: 0px;
+}
+
+footer .icon{
+    width: 20px;
+}
+
+.one{
+    width: 100%;
+}
+
+#right{
+    width: 90%;
+    /* background-color: greenyellow; */
+    align-items: center;
+}
+
+.number{
+    width: 60%;
+}
+
+#right a{
+    width: 60%;
+}
+
+}
+
+@media screen and (max-width:500px){
+
+    #langs{
+        flex-direction: row;
+        align-items: start;
+    }
+
+    #right-skill{
+        flex-direction: column;
+        margin: 0px;
+        width: auto;
+        margin: 0px 0px 0px 30px; 
+        align-items: center;
+    }
+
+    #left-skill{
+        flex-direction: column;
+        margin: 0px;
+        align-items: center;
+        width: auto;
+        margin: 0px 30px 0px 0px;
+    }
+
+    #texter{
+        margin: 10px 0px 30px 0px ;
+        width: 20vw !important;
+        /* background-color: orange; */
+        font-size: 15px !important;
+        text-align: center;
+        color: rgb(61, 61, 61);
+    }
+
+    .number{
+        width: 90%;
+    }
+
+    #my-button:hover{
+        border: 1px solid ;
+    }
+
+    #right a{
+        width: 90%;
+    }
+
+    #my-name{
+        margin-left: 10px;
+    }
+
+    #my-name a{
+        font-size: 1em !important;
+        /* margin-left: 3rem; */
+        /* background-color: aqua; */
+        width: auto !important;
+        /* color: red !important; */
+        /* margin-right: 10vw; */
+    }
+
+    header ul li{
+        padding: 11px 5vw;
+    }
+
+    header ul li a{
+        font-size: 1em;
+        margin: 0px;
+    }
+
+    header ul{
+        margin-left: 22vw !important;
+        /* background-color: red; */
+        /* width: 10vw; */
+    }
+
+    header ul li{
+        color: red;
+    }
+
+    .project-title{
+        font-size: 7vw !important;
+    }
+}
+
+@media screen and (max-width:400px){
+
+    #my-job{
+        font-size: 9vw;
+    }
+
+    #say-hi, #real-job, #my-button{
+        font-size: 4vw;
+    }
+
+    .project{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wahid{
+        width: 75%;
+        margin: 20px 0px 0px 0px;
+        padding: 0px !important;
+    }
+
+    .wahide{
+        width: 75%;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .project-title{
+        font-size: 10vw;
+        padding-bottom: 0px;
+        margin-bottom: 1px;
+    }
+
+    .project-details{
+        margin-top: 10px;
+        font-size: 4.9vw;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    #forth-page h1{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .number{
+        width: 90%;
+    }
+
+    #right{
+        justify-content: center;
+    }
+
+    #about-pic{
+        display: none;
+    }
+
+    #about-text{
+        width: 85%;
+    }
+
+    #langs{
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        padding-top: 20px;
+    }
+
+    #io{
+        display: none !important;
+        /* background-color: red !important;  */
+    }
+
+    #left-skill{
+        flex-direction: column;
+        /* background-color: red !important;  */
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+    }
+
+    #left-skill div{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #right-skill div{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #left-skill p{
+        align-items: center;
+        justify-content: center;
+        /* width: 25vw; */
+        height: 17vw;
+    }
+
+    #right-skill p{
+        align-items: center;
+        justify-content: center;
+        /* width: 25vw; */
+        height: 17vw;
+        display: flex;
+    }
+
+    #right-skill{
+        flex-direction: column;
+        /* background-color: aqua; */
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px 0px 5px 0px;
+    }
+
+    /* #righ-skill div{
+        background-color: green !important;
+    } */
+
+    #texter{
+        margin: 10px 0px 30px 0px ;
+        width: 40vw !important;
+        /* background-color: orange; */
+        font-size: 15px !important;
+        text-align: center;
+        color: rgb(61, 61, 61);
+    }
+
+    #contact-me{
+        font-size: 7vw;
+    }
+
+    .project-title{
+        font-size: 10vw !important;
+    }
+
+/* 
+    #left-skill div{
+        width: 15vw;
+    } */
+
+    /* #left-skill p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .lang{
+        width: auto !important;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    /* #texter{
+        font-size: 5vw;
+    } */
+}
+
+@media screen and (max-width:350px){
+
+    #who-text{
+        font-size: 15px;
+    }
+
+    header div ul li a{
+        font-size: 13px;
+        margin-left: 0px
+    }
+
+    #header{
+        padding: 11px 0px;
+    }
+
+    header ul{
+        margin-left: 24vw !important;
+    }
+
+    header a{
+        /* background-color: red; */
+        padding-left: 0px;
+    }
+}
+
+
+@media screen and (max-width:290px){
+    header div ul li a{
+        font-size: 10px;
+    }
+
+    #header{
+        align-items: start;
+        justify-content: start;
+        padding-left: 7px;
+    }
+
+
+    header ul{
+        margin-left: 0vw !important;
+    }
+
+    header ul li{
+        padding-left: 9px !important;
+    }
+
+    #my-name{
+        margin-left: 0px;
+    }
+
+    #my-name a{
+        font-size: 15px !important;
+        margin-left: 0px !important;
+        text-decoration: none;
+    }
+
+    header ul{
+        margin-left: 25vw !important;
+    }
+}
+
+/* @media screen and (max-width:480px){
+
+} */
+
+
+/* @media screen and (max-width:480px){
+
+    
+    *{
+        padding: 0;
+        margin: 0;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        cursor:default;
+        box-sizing: border-box;
+    }
+
+    .desk{
+        display: none;
+    }
+
+    .mob{
+        display: block;
+    }
+    
+    body{
+        background-color:aliceblue;
+        color: aliceblue;
+        background-image: url(pics/back-5-1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    .flexy{
+        display: flex;
+    }
+    
+    #main-div{
+        margin-top: 10rem;
+        margin-left: 3rem;
+    }
+    
+    #main-body{
+        height: 100vh;
+    }
+
+    header{
+        display: flex;
+    }
+    
+    #header{
+        padding: 11px;
+        color:midnightblue;
+        background-color: white;
+        border-bottom: 1px solid blue;
+        position: fixed;
+    }
+    
+    #my-name{
+        margin-left: 5px;
+    }
+    
+    #my-button{
+        background-color: mediumblue;
+        color: white;
+        border-radius: 1rem;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+    
+    #my-button:hover{
+        background-color:rgba(3, 201, 201, 0) ;
+        border: 1px solid mediumblue;
+        color: mediumblue;
+    }
+    #my-job{
+        padding-bottom: 0rem;
+        font-size: 200%;
+        color: midnightblue;
+    }
+    #say-hi{
+    color: mediumblue;
+    padding-bottom: 15px;
+    font-size: 20px;
+    }
+
+    #iconsp{
+        width: 100%;
+    }
+    
+    header ul{
+        display: flex;
+        color: blue;
+        list-style: none;
+        float: right;
+    }
+    header li {
+        padding: 11px 25px;
+        margin-top: -29px;
+    
+    }
+    a{
+        text-decoration: none;
+        cursor: pointer;
+        color: blue;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    #first-page #imger{
+        width: 50vmax;
+        float: right;
+        margin-top: -90%;
+        margin-right: -110px;
+    }
+
+    #first-page{
+        height: 100%;
+        background-color: red !important;
+    }
+    
+    #icons{
+        display: flex;
+    }
+    
+    #third-page{
+        background-color: white;
+        display: none;
+        flex-direction: column;
+        padding-bottom: 200px;
+        width: 100%;
+    }
+    
+    #third-page .title{
+        color:blue;
+    }
+    
+    #second-page{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    #forth-page{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cont{
+        width: 100px;
+        height: 250px;
+        color: blue;
+        background-color:  rgb(238, 238, 238);
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 3px 7px rgba(0,0,0,0.5);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .cont:hover{
+        background-color: rgb(231, 229, 229);
+    }
+    
+    .cont-r{
+        background-color: rgb(238, 238, 238);}
+    
+    #works{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .onework{
+
+    }
+    
+    .title{
+        font-size: 35px;
+        padding: 20px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .title2{
+        font-size: 35px;
+        padding: 20px;
+        margin-bottom: 70px;
+        text-align: center;
+        color: blue;
+    }
+    
+    #langs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .lang{
+        width: 100px;
+        margin: 20px;
+    }
+
+    
+    .icon img{
+        width: 20px;
+        margin: 0px 4px;
+    }
+    
+    .ppp{
+    }
+
+    
+    #copy-rights{
+        background-color: midnightblue;
+        padding: 20px;
+    }
+    
+    #copy-rights span{
+        color: rgb(47, 47, 255);
+    }
+    
+    .project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding: 20px 0px 20px 0px !important;
+    }
+
+    .wahid{
+        margin-left: 0px;
+    }
+    
+    .project-title{ 
+        display: none;
+    }
+
+    .object-title-mobile{ 
+        display: block;
+        padding: 15px 0px 15px 0px;
+        font-size: 40px;
+        color: rgb(54, 46, 46);
+    }
+    
+    .project-details{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .texte{
+        float: left !important;
+        right: 0px;
+        position:static;
+        text-align: left;
+        text-align: center;
+    }
+    
+    .wahide{
+        width: 400px;
+        margin-right: 0px;
+        float: right !important;
+        text-align: center;
+        text-align: center;
+    }  
+    
+    .text{
+        position: static;
+        text-align: center;
+    }
+    
+    #w1,#w3{
+    }
+    
+    #w2{
+    }
+    
+    .one,.three{
+        text-align: center;
+    }
+    
+    .two{
+    }
+    
+    #second-page h1{
+        color: blue;
+    }
+    
+    #fifth-page{
+        height: 60vh;
+        background-color: mediumblue;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        display: none;
+    }
+    
+    #fifth-page p{
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+    }
+ 
+ 
+    
+    #texter{
+        color: mediumblue;
+        margin-left: 50px;
+    }
+    
+    #right-skill div{
+        display: flex;
+        align-items: center;
+    }
+    
+    #left-skill div{
+        display: flex;
+        text-align:end;
+        align-items: center;
+    }
+    
+    #right-skill{
+        margin-left: 60px;
+        padding-top: 50px;
+    }
+    
+    #left-skill{
+        margin-right: 60px;
+        padding: 50px;
+    }   
+} */
